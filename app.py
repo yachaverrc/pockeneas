@@ -2,6 +2,7 @@ from flask import Flask, render_template, jsonify
 import random
 import json
 import os
+
 from dotenv import load_dotenv
 
 app = Flask(__name__)

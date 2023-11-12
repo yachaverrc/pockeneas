@@ -4,11 +4,11 @@ on:
 
   push: 
 
-    branches: [ master ] 
+    branches: [ main ] 
 
   pull_request: 
 
-    branches: [ master ] 
+    branches: [ main ] 
 
 jobs: 
 
@@ -34,7 +34,7 @@ jobs:
 
     - name: Build the Docker image 
 
-      run: docker build . --file Dockerfile --tag yachaverrc/pokeneas:latest 
+      run: docker build . --file dockerfile --tag yachaverrc/pokeneas:latest 
 
 
     - name: Docker Push 

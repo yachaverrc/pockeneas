@@ -1,0 +1,35 @@
+<!-- templates/pokeneas.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Listado de Pokeneas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Listado de Pokeneas</h1>
+        <div class="row">
+            {% for pokenea in pokeneas %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="{{ pokenea.imagen_url }}" class="card-img-top" alt="{{ pokenea.nombre }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ pokenea.nombre }}</h5>
+                            <p class="card-text">ID: {{ pokenea.id }}</p>
+                            <p class="card-text">Altura: {{ pokenea.altura }} m</p>
+                            <p class="card-text">Habilidad: {{ pokenea.habilidad }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript y jQuery (si es necesario) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJ5NvHHJoAd8cv6ZJmZVZZVa8Bnt7CSdPvtTz8KtCHPpZu7LauEM7" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

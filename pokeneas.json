@@ -1,0 +1,87 @@
+{
+    "pokeneas": [
+      {
+        "id": 1,
+        "nombre": "Pikachua",
+        "altura": 0.4,
+        "habilidad": "Electrochoque",
+        "imagen": "1.png",
+        "frase_filosofica": "La chispa de la vida está en cada uno de nosotros."
+      },
+      {
+        "id": 2,
+        "nombre": "Bulbastrella",
+        "altura": 0.7,
+        "habilidad": "Rayo Solar",
+        "imagen": "2.png",
+        "frase_filosofica": "Como las flores, crecemos hacia la luz."
+      },
+      {
+        "id": 3,
+        "nombre": "Charmandario",
+        "altura": 0.6,
+        "habilidad": "Llamarada",
+        "imagen": "3.png",
+        "frase_filosofica": "El fuego interior nunca se apaga."
+      },
+      {
+        "id": 4,
+        "nombre": "Squirtlina",
+        "altura": 0.5,
+        "habilidad": "Hidrochorro",
+        "imagen": "4.png",
+        "frase_filosofica": "El agua fluye como la vida misma."
+      },
+      {
+        "id": 5,
+        "nombre": "Jigglymeditativa",
+        "altura": 0.5,
+        "habilidad": "Canto Curativo",
+        "imagen": "5.png",
+        "frase_filosofica": "La armonía interior es la clave de la paz."
+      },
+      {
+        "id": 6,
+        "nombre": "Meowthiloso",
+        "altura": 0.4,
+        "habilidad": "Gruñido Misterioso",
+        "imagen": "6.png",
+        "frase_filosofica": "La riqueza está en el equilibrio del ser."
+      },
+      {
+        "id": 7,
+        "nombre": "Psyduckensamiento",
+        "altura": 0.6,
+        "habilidad": "Confusión Reflexiva",
+        "imagen": "7.png",
+        "frase_filosofica": "La mente es un río de pensamientos, a veces turbio, a veces claro."
+      },
+      {
+        "id": 8,
+        "nombre": "Growlithurgia",
+        "altura": 0.7,
+        "habilidad": "Fuego Sagrado",
+        "imagen": "8.png",
+        "frase_filosofica": "El fuego purifica el alma y enciende la pasión."
+      },
+      {
+        "id": 9,
+        "nombre": "Abrazen",
+        "altura": 0.4,
+        "habilidad": "Telequinesis",
+        "imagen": "9.png",
+        "frase_filosofica": "La mente es capaz de abrir puertas invisibles."
+      },
+      {
+        "id": 10,
+        "nombre": "Geodudar",
+        "altura": 0.5,
+        "habilidad": "Roca Firme",
+        "imagen": "10.png",
+        "frase_filosofica": "La fortaleza está en la solidez de tus raíces."
+      }
+    ]
+  }
+  
+  
+  

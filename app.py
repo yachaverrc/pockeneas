@@ -23,7 +23,7 @@ pokeneas_dict = json.loads(pokeneas_data)
 
 # Obtén las URL de las imágenes
 pokeneas_with_image_urls = [
-    {**pokenea, 'imagen_url': f"https://storage.googleapis.com/{bucket_name}/images/{pokenea['imagen']}"}
+    {**pokenea, 'imagen_url': f"https://storage.cloud.googleapis.com/{bucket_name}/images/{pokenea['imagen']}"}
     for pokenea in pokeneas_dict['pokeneas']
 ]
 
